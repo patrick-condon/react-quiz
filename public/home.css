@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  text-align: center;
+  background-color: #F5F8FA;
+  font-family: 'Open Sans', sans-serif;
+}
+#wrapper {
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: #519BBF;
+  margin: 2rem;
+}
+
+.quiz-body {
+  justify-content: center;
+}
+
+.correct {
+  color: #9DC284;
+}
+
+.incorrect {
+  color: #DF9D9B;
+}
+
+.clicked {
+  color: #69A6C5;
+  background-color: white;
+}
+
+.unclicked {
+  background-color: #519BBF;
+  color: white;
+}
+
+li {
+  list-style: none;
+  width: 15rem;
+  margin: 1rem auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: .2rem;
+}
+
+ul {
+  justify-content: center;
+}
+
+li {
+  /* Add a bit more spacing between list items. */
+  /* padding: 5px; */
+}
